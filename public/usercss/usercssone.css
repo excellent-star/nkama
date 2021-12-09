@@ -1,0 +1,20 @@
+.btn-link:after{
+
+
+      content: '\2212';
+      width:35px;
+      font-size:25px;
+      text-align:center;
+      border-radius:center;
+      right:15px;
+      top:11px;
+      position:absolute;
+      /* background:#e8eeff; */
+}
+
+.btn-link.collapsed:after 
+{
+
+     content: '\002B';
+}
+
